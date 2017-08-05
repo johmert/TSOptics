@@ -1,7 +1,10 @@
 html {
   font-family: Helvetica;
   font-size: 18px;
-  line-height: 1.4;
+}
+
+body {
+  line-height: 1.4rem;
 }
 
 .container {
@@ -56,9 +59,81 @@ header .flex {
 .call-to-action {
   display: inline-block;
   position: relative;
-  line-height: 2.4;
+  line-height: 2.4rem;
   background-color: white;
   margin-top: 10rem;
   margin-right: -2rem;
   padding: 0.75rem 5rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.s-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.s-container img {
+  width: 100%;
+  margin: 2rem;
+}
+
+#paper {
+  width: 3.5rem;
+}
+
+
+.about {
+  justify-content: center;
+}
+
+.m-container {
+  width: 35%;
+  margin: 5%;
+}
+
+.title {
+  justify-content: flex-start;
+  background-color: cadetblue;
+  width: 80%
+}
+
+.m-container p {
+  margin: 1rem 0 5rem 0;
+}
+
+.m-container span {
+  font-weight: bold;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+footer {
+  background-color: azure;
+  padding: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
 }
